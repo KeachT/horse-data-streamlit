@@ -1,6 +1,6 @@
 import pandas as pd
-import results
-import horse_results
+from module import results
+from module import horse_results
 
 def main():
     # 回数を指定して、1月分までをスクレイピングする

@@ -1,6 +1,6 @@
 import racename_raceid
-import entry_list
-import summary
+from module import entry_list
+from module import summary
 
 racename_raceid_dict = racename_raceid.racename_raceid()
 
