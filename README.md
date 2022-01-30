@@ -21,7 +21,7 @@ It displays the following data in a table and distribution chart.
 
 
 ## 環境 : Requirement
-python 3.8.12+  
+Python 3.8.12+  
 altair 4.2.0+  
 beautifulsoup4 4.10.0+  
 pandas 1.3.5+  
