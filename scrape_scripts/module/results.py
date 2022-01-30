@@ -6,17 +6,6 @@ from tqdm import tqdm
 import re
 
 def scrape(race_id_list):
-    """
-    レース結果データをスクレイピングする関数
-    Parameters:
-    ----------
-    race_id_list : list
-        レースIDのリスト
-    Returns:
-    ----------
-    race_results_df : pandas.DataFrame
-        全レース結果データをまとめてDataFrame型にしたもの
-    """
     #race_idをkeyにしてDataFrame型を格納
     race_results = {}
     for race_id in tqdm(race_id_list):
