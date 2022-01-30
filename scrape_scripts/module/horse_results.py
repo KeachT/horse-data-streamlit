@@ -3,20 +3,6 @@ import time
 from tqdm import tqdm
 
 def scrape(horse_id_list):
-    """
-    馬の過去成績データをスクレイピングする関数
-
-    Parameters:
-    ----------
-    horse_id_list : list
-        馬IDのリスト
-
-    Returns:
-    ----------
-    horse_results_df : pandas.DataFrame
-        全馬の過去成績データをまとめてDataFrame型にしたもの
-    """
-
     #horse_idをkeyにしてDataFrame型を格納
     horse_results = {}
     for horse_id in tqdm(horse_id_list):
