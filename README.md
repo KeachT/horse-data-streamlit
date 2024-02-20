@@ -1,4 +1,4 @@
-# HorseDataStreamlit
+# Horse Data Streamlit
 
 ## 概要 : Description
 
